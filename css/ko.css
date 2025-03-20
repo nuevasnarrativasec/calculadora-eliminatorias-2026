@@ -1,0 +1,107 @@
+/* navigation button ko-round */
+.wfb-tabcalc-navi-ko {
+	position: relative;
+	height: 24px;
+	width: 74px;
+	text-align: center;
+	float: left;
+	margin: 1px;
+	padding-top: 8px;
+	border: 1px solid #9BCAF3;
+	font-weight: bold;	
+	cursor: pointer;
+	color: #09589E;
+	background: #fff;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.wfb-tabcalc-navi-ko.active {
+	background-color: #09589E;
+	color: #F8B64B;
+}
+
+/* headline before ko-round's gameplan-table */
+.wfb-tabcalc-group thead .wfb-headline-ko-round {
+	background-color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    border-top: 3px solid #FFFFFF;
+    color: #09589E;
+    font-size: 15px;
+    padding: 2px 2px 2px 3px;
+    font-weight: normal;
+    text-align: left;
+}
+
+/* gametable navbar */
+.wfb-navbar-ko-round-container {
+	width: 450px;
+	height: auto;
+	position: relative;
+	clear: both;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Ciutadella Run-SemiBold', Arial, Helvetica, sans-serif;	
+}
+@media screen and (max-width:450px) {
+	.wfb-navbar-ko-round-container {
+		width: 225px;
+	}		
+}
+.wfb-navbar-ko-round-container .wfb-navbar-ko-round-button {
+	margin: 3px;
+	padding: 3px;
+	background-color: #09589E;
+	width: 100px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	position: relative;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.wfb-navbar-ko-round-container .wfb-navbar-ko-round-button.clear {
+	clear: none;
+}
+.wfb-navbar-ko-round-container .wfb-navbar-ko-round-button.completed {
+	color: #9BCAF3;
+	background: #F0F0F0;
+}
+
+/* additional group content */
+#wfb-tabcalc-ko thead .wfb-headline-ko-round {
+	background-color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    border-top: 3px solid #FFFFFF;
+    color: #09589E;
+    font-size: 15px;
+    padding: 2px 2px 2px 3px;
+    font-weight: normal;
+    text-align: left;
+}
+#wfb-tabcalc-ko {
+	margin: 15px 0px 0px 0px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #9BCAF3;
+    float: left;
+    position: relative;
+    width: 658px;
+}
+#wfb-tabcalc-ko,
+#wfb-tabcalc-ko table{
+	display: none;
+}
+
+

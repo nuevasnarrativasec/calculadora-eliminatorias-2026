@@ -1,0 +1,938 @@
+body{	
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+@font-face {
+    font-family: 'actobold';
+    src: 	url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/fonts/acto-bold-webfont.woff2') format('woff2'),
+         	url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/fonts/acto-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'barlowcondensed-medium';
+    src: 	url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/fonts/barlowcondensed-medium.woff2') format('woff2'),
+         	url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/fonts/barlowcondensed-medium.woff') format('woff');
+}
+
+
+/* BARRA NEGRA DEPOR*/
+
+header {
+	background: #000;
+	width: 100%
+}
+
+.header-comercio {
+	background: #000;
+	padding: 5px 0;
+	/*position: fixed;*/
+	width: 100%;
+	z-index: 9999999;
+	height: 30px;
+	top: 0;
+	-webkit-box-shadow: 0 3px 6px 0 rgba(49, 49, 50, 1);
+	-moz-box-shadow: 0 3px 6px 0 rgba(49, 49, 50, 1);
+	box-shadow: 0 3px 6px 0 rgba(49, 49, 50, 1);
+	opacity: 1
+}
+
+.header-comercio {
+	background: #000;
+	padding: 5px;
+}
+
+.ctn-header-comercio {
+	margin: 0 auto;
+	max-width: 990px;
+	text-align: left
+}
+
+.ctn-header-comercio a {
+	display: inline-block;
+	text-indent: -9999px
+}
+
+.ctn-header-comercio-v2 {
+	text-align: center
+}
+
+a.logo-especiales {
+	background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/img/logo-especiales.png) no-repeat 0 5px;
+	background-size: 100%;
+        height: 22px;
+        width: 100px;
+}
+
+a.logo-ec {
+	background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/img/logo-comercio.png) no-repeat 0 0;
+	background-size: 100%;
+        height: 30px;
+        margin-top: 5px;
+        width: 100px;
+        float: left;
+        display: inline-block;
+}
+
+#social {
+	float: right;
+	margin-right: 10px;
+}
+
+#social ul {
+	display: inline-block;
+	margin: -3px auto 0;
+	padding: 0;
+	vertical-align: middle
+}
+
+#social ul li {
+	display: inline-block;
+	margin: 0 1px;
+	vertical-align: middle
+}
+
+#social ul li a {
+	height: 32px;
+	width: 32px
+}
+
+#social ul li a.facebook {
+	background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/img/sprite-redes.png) no-repeat -6px -4px;
+	background-size: 130px;
+	border-radius: 20px
+}
+
+#social ul li a.tw {
+	background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/img/sprite-redes.png) no-repeat -56px -9px
+}
+
+#social ul li a.tw {
+	background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/img/sprite-redes.png) no-repeat -50px -4px;
+	background-size: 130px;
+	border-radius: 20px
+}
+
+#social ul li a.wst {
+	background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/elementos-comunes/img/sprite-redes.png) no-repeat -92px -4px;
+	background-size: 130px;
+	border-radius: 20px;
+	display: none
+}
+
+#social ul li:hover {
+	opacity: .5
+}
+
+/* FIN BARRA NEGRA DEPOR*/
+
+
+body{
+	background: #fff !important;
+}
+
+input
+{
+	background-color: #1E2FA6 !important;
+	border: none;
+	width: 20px;
+	text-align: center;
+	background: #fff;
+	color: #09589e;
+	padding: 5px;
+}
+
+input[readonly]
+{
+	background-color: #dfe3e6;
+	border: 1px #aaa solid;
+	color: #787878;
+}
+
+.wfb-loading_img {
+	position: absolute;
+	top: 250px;
+	left: 280px;
+	width: 100px;
+	height: 100px;
+	background-image: url("../gfx/wfb_loading.gif");
+	background-repeat: no-repeat;
+}
+
+.contenedor-medio{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;    
+}
+/*Banners de publicidad*/
+.container-top{
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.container-caja3{
+    display: none;
+}
+
+.lateral-izq{
+    float: left;
+    display: inline-block;
+    margin: 40px 20px;
+    padding: 20px 0;
+    width: 12%;
+    /*flex: 160px 1;*/
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 620px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 20;    
+    left: 0;
+}
+.lateral-der{
+    float: right;
+    display: inline-block;
+    margin: 40px 20px;
+    padding: 20px 0;
+    width: 12%;
+    /*flex: 160px 1;*/
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 620px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 20;
+    right: 0;
+}
+.container-zocalo{
+    max-width: 728px;
+    height: auto;
+    z-index: 2147483646;
+    position: fixed;
+    margin: 20px auto 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+/*Fin banners de publicidad*/
+
+.contenedor-fluido {
+    max-width: 980px;
+    width: 100%;    
+    /*height: 547px;*/
+    /*background-image: url('/especiales-multimedia/calculadora-eliminatorias-mundial-2026-especdis/img/cabecera-calculadora-comercio.jpg?orj');    
+    background-size: 100% 100%;*/
+}
+        .contenedor-fluido img {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .contenedor-cab p {
+            font: 1.7em/23px 'barlowcondensed-medium';
+            color: black;
+            margin: 0 auto;
+            text-align: center;
+            max-width: 480px;
+            padding: 0px 10px;
+        }
+
+
+/*Container*/
+.wfb-tabcalc-wrapper {	
+    margin: 0 auto 120px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+	max-width: 100%;
+    width: 100%;
+}
+
+#wfb-tabcalc-content
+{
+	width: 100%;
+}
+
+.wfb-tabcalc-selector-container
+{
+	background: rgb(34,46,162);
+	background: linear-gradient(93deg, rgba(34,46,162,1) 0%, rgba(227,4,23,1) 100%);
+	/*border: 1px solid #000;*/
+	margin-bottom: 5px;
+	/*width: 980px;*/
+	height: 45px;
+	text-align: center;
+}
+
+#wfb-tabcalc-matchdays
+{
+	border: 1px solid #e8e8e8;
+	margin: 0 auto;
+	position: relative;
+	/*float: left;*/
+	width: 980px;
+	background: #fff;
+}
+
+/*Standard Tabelle*/
+.standard_tabelle tr td {
+	text-align: center;
+	nowrap: nowrap;
+}
+
+/*Matches Tabelle*/
+td.wfb-tabcalc-match-date{
+	width: 15%;
+}
+
+td.wfb-tabcalc-match-time {
+	width: 10%;
+}
+
+td.wfb-tabcalc-name-home,
+td.wfb-tabcalc-name-away {
+	width: 26%;
+}
+
+td.wfb-tabcalc-logo-home,
+td.wfb-tabcalc-logo-away {
+	width: 6%;
+}
+
+td.wfb-tabcalc-goals-home,
+td.wfb-tabcalc-goals-away {
+	width: 5%;
+}
+
+td.wfb-tabcalc-divider {
+	width: 3%
+}
+
+.standard_tabelle td.wfb-tabcalc-name-home {
+	text-align: right;
+}
+
+.standard_tabelle td.wfb-tabcalc-name-away {
+	text-align: left;
+}
+
+/*Middle Navi Box*/
+#wfb-tabcalc-standing-buttons-container
+{
+	width: 980px;
+	height: 32px;
+	position: relative;
+	/*float: left;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wfb-tabcalc-prev-matchday {
+	margin-left: 27%;
+}
+
+.wfb-tabcalc-standing-buttons
+{
+	margin-right: 5px;
+	margin-top: 5px;
+	padding-top: 4px;
+	background-color: #000;
+	width: 106px;
+	height: 24px;
+	color: #fff;
+	font-weight: bold;
+	/*	font-size: 0.8em;*/
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	position: relative;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	line-height: 20px;
+}
+	
+/*Standing Tabelle*/
+.standard_tabelle  td.wfb-tabcalc-standing-team {
+	text-align: left;
+	/*width: 246px;*/
+}
+
+.standard_tabelle td.ueberschrift-standing-team {
+	text-align: left;
+}
+
+.standard_tabelle td.wfb-tabcalc-standing-logo {
+	width: 7%;
+}
+
+.standard_tabelle td.wfb-tabcalc-standing-group-team {
+	text-align: left;
+	width: 25%;
+}
+
+#wfb-tabcalc-table table.wfb-tabcalc-standing-table {
+	position: relative;
+	/*float: left;*/
+	border-bottom: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	background: #fff;
+	margin: 0 auto;
+	max-width: 980px;
+}
+
+/*Round_marker Colors*/
+.color_id1{
+	background: #e6c6d2;
+    color: #6a1c3a;
+    font-weight: bold;
+}
+.color_id2{
+	background: #e6c6d2;
+    color: #6a1c3a;
+    font-weight: bold;
+}
+.color_id3{
+	background: #ebecec;
+    font-weight: bold;
+}
+.color_id4{
+	background: #E8F5D3;
+}
+.color_id6{
+	background: #D2E4F3;
+}
+.color_id7{
+	background: #BDD9EF;
+}
+.color_id8{
+	background: #A5CCE9;
+}
+.color_id0{
+	background: #fff;
+}
+
+/*Legende*/
+.tabcalc-legende{
+	border-bottom: 1px solid #9bcaf3;
+	border-left: 1px solid #9bcaf3;
+	border-right: 1px solid #9bcaf3;
+	width: 100%;
+	background: #fff;
+	border-spacing: 1px;
+}
+
+
+#wfb-tabcalc-navi
+{
+	position: relative;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+    /*float: center;*/
+}
+
+.wfb-tabcalc-navi-day,
+.wfb-tabcalc-navi-group
+{
+	position: relative;
+	height: 24px;
+	width: 28px;
+	text-align: center;
+	padding-top: 8px;
+    border: 1px solid #a62c5a;
+    float: left;
+    margin: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background: #691c3a;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.wfb-tabcalc-navi-day.tabwidth23
+{
+	width: 23px;
+}
+
+.wfb-tabcalc-navi-day.tabwidth24
+{
+	width: 24px;
+}
+
+.wfb-tabcalc-navi-day.tabwidth25
+{
+	width: 25px;
+}
+
+.wfb-tabcalc-navi-day.tabwidth26
+{
+	width: 26px;
+}
+
+.wfb-tabcalc-navi-day.tabwidth27
+{
+	width: 27px;
+}
+
+.wfb-tabcalc-navi-day.tabwidth28
+{
+	width: 46px;
+}
+
+.wfb-tabcalc-navi-day.completed,
+#wfb-tabcalc-next-matchday.completed,
+#wfb-tabcalc-prev-matchday.completed
+{
+	color: #fff;
+	background: #000 !important;
+}
+
+.wfb-tabcalc-navi-day.active,
+.wfb-tabcalc-navi-group.active
+{
+	background-color: #E30417 !important;
+	color: #fff !important;
+}
+
+#wfb-tabcalc-first-leg,
+#wfb-tabcalc-second-leg,
+#wfb-tabcalc-third-leg
+{
+	border: 1px solid #d02c28;
+	width: 28px;
+	height: 22px;
+	padding-top: 10px;
+	float: left;
+	color: #fff;
+	background: #d02c28;
+	font-weight: bold;
+	margin: 1px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.wfb-tabcalc-button
+{
+	background-repeat: repeat-x;
+	border-radius: 3px;
+	border-left-color: #ccc;
+	border-top-color: #ccc;
+	border-right-color: #ccc;
+	border-bottom-color: #aaa;
+	border-width: 1px;
+	border-style: solid;
+	font-family: sans-serif;
+	height: 22px;
+	padding-top: 4px;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 80px;
+	cursor: pointer;
+}
+
+.wfb-tabcalc-group{
+	width: 100%;
+}
+
+
+
+/** fechas **/
+#wfb-tabcalc-navi-day-19,
+#wfb-tabcalc-navi-day-20,
+#wfb-tabcalc-navi-day-21,
+#wfb-tabcalc-navi-day-22,
+#wfb-tabcalc-navi-day-23,
+#wfb-tabcalc-navi-day-24,
+#wfb-tabcalc-navi-day-25,
+#wfb-tabcalc-navi-day-26,
+#wfb-tabcalc-navi-day-27,
+#wfb-tabcalc-navi-day-28,
+#wfb-tabcalc-navi-day-29,
+#wfb-tabcalc-navi-day-30,
+#wfb-tabcalc-navi-day-31,
+#wfb-tabcalc-navi-day-32,
+#wfb-tabcalc-navi-day-33,
+#wfb-tabcalc-navi-day-34,
+#wfb-tabcalc-navi-day-35,
+#wfb-tabcalc-navi-day-36,
+#wfb-tabcalc-navi-day-37,
+#wfb-tabcalc-navi-day-38{
+	display: none !important;
+}
+
+.wfb-tabcalc-match-date,
+.wfb-tabcalc-match-time{
+	display: none !important;
+}
+
+tbody tr:nth-child(12),
+tbody tr:nth-child(13),
+tbody tr:nth-child(14),
+tbody tr:nth-child(15),
+tbody tr:nth-child(16),
+tbody tr:nth-child(17),
+tbody tr:nth-child(18),
+tbody tr:nth-child(19),
+tbody tr:nth-child(20),
+tbody tr:nth-child(21){
+	display: none !important;
+}
+
+.standard_tabelle td {
+    line-height: 35px !important;
+}
+
+tr.color_id0 td:nth-child(8),
+tr.color_id1 td:nth-child(8),
+tr.color_id2 td:nth-child(8),
+tr.color_id3 td:nth-child(8){
+	display: none !important;
+}
+
+.tabcalc-legende{
+	display: none !important;
+}
+
+.leyendas{
+    text-align: center;
+}
+
+.leyenda{
+    display: inline-block;
+    font: 13px/15px arial;
+    margin: 13px auto -8px 10px;
+    vertical-align: top;
+    /*width: 95%; */
+}
+	.leyenda i{
+		/*border-radius: 10px;*/
+		display: inline-block;
+		height: 10px;
+		vertical-align: top;
+		width: 10px;
+	}
+		i.amarillo{
+			background: #e6c5d2;
+            margin-top: 2px;
+		}
+		i.gris{
+			background: #d2d2d2;
+            margin-top: 2px;
+		}
+
+p.instrucciones{
+	font: 15px/20px 'barlowcondensed-medium';
+	text-align: center;
+	max-width: 980px;
+    margin: 10px auto;
+}
+	p.instrucciones span{
+		font-weight: bold;
+	}
+
+.standard_tabelle td {
+    font: 20px/20px 'barlowcondensed-medium';
+
+}
+
+/* PINTAR FECHA CUMPLIDA */
+#wfb-tabcalc-navi-day-9,
+#wfb-tabcalc-navi-day-8,
+#wfb-tabcalc-navi-day-7,
+#wfb-tabcalc-navi-day-6,
+#wfb-tabcalc-navi-day-5,
+#wfb-tabcalc-navi-day-4,
+#wfb-tabcalc-navi-day-3,
+#wfb-tabcalc-navi-day-2,
+#wfb-tabcalc-navi-day-10,
+#wfb-tabcalc-navi-day-11,
+#wfb-tabcalc-navi-day-12,
+#wfb-tabcalc-navi-day-13,
+#wfb-tabcalc-navi-day-14,
+#wfb-tabcalc-navi-day-15,
+#wfb-tabcalc-navi-day-16,
+#wfb-tabcalc-navi-day-17,
+#wfb-tabcalc-navi-day-18{
+	background: #1E2FA6;
+	color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .wfb-tabcalc-wrapper{
+        margin: 0 auto;
+        position: relative;
+        width: 980px;
+        display: inline-block;
+    }
+    .lateral-izq, .lateral-der{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {    
+    
+    #social ul li a.wst {
+        display: block
+    }
+    
+    /*Banners de publicidad*/
+    .container-top{     
+		margin-top: 40px;   
+        padding: 0;
+        background-color: #6A142F;
+    }    
+    /*Fin Banners de publicidad*/
+    .contenedor-fluido {
+        background-color: #000;
+        max-width: 640px;
+        width: 100%;    
+        /*height: 235px;*/
+        /*background-image: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales/calculadora-eliminatorias-qatar-2022-nndd-ecvisual-ecpm/img/banner-m-2.jpg?orj');    
+        background-size: 100%;*/
+    }
+    
+    .container-caja3{
+        display: block;
+        margin: 30px 0 70px 0;
+        text-align: center;
+    }
+    
+    #wfb-tabcalc-content {
+	    width: 100%;
+	}
+     
+    .wfb-tabcalc-wrapper,    
+    .wfb-tabcalc-selector-container,
+    #wfb-tabcalc-matchdays,
+    #wfb-tabcalc-standing-buttons-container {
+	    width: 100%;
+	}
+
+	.wfb-tabcalc-selector-container{
+		height: 50px;
+		/*overflow: hidden;*/
+	}
+		#wfb-tabcalc-navi{
+                    /*float: left;*/
+		}
+
+	#wfb-tabcalc-prev-matchday{
+		margin-left: 3%;
+	}
+
+	.wfb-tabcalc-standing-buttons{
+		width: 21%;
+	}
+
+	.box-main-popup .popup{
+	    top: 100px;
+	}
+	.wfb-tabcalc-navi-day.tabwidth28{
+		width: 32px;
+	}
+
+    .contenedor-cab p {
+        font: 1.4em/22px 'barlowcondensed-medium';
+        max-width: 480px;
+        padding: 0px 10px;
+    }
+    
+     .contenedor-cab img {
+        margin: 10px auto 0;
+    }   
+	
+	.banner-movil{
+		display: block !important;
+	}
+	.banner-home{
+		display: none;
+	}
+}
+@media screen and (max-width: 414px) {    
+    .contenedor-fluido {
+        /*height: 278px;*/
+    }
+}
+@media screen and (max-width: 375px) {    
+    .contenedor-fluido {
+       /* height: 250px;*/
+    }
+}
+@media screen and (max-width: 360px) {    
+    .contenedor-fluido {
+       /* height: 236px;*/
+    }
+}
+@media screen and (max-width: 320px) {
+    #social {
+        margin: 0;
+    }
+    .wfb-tabcalc-navi-day.tabwidth28 {
+        width: 28px;
+    } 
+    
+    #wfb-tabcalc-content {
+        width: 100%;
+    }
+    
+    .contenedor-fluido {
+        width: 100%;
+    }
+}
+/** agregados **/
+
+#wfb-tabcalc-refresh{
+	background-color: #398e06;
+}
+	#wfb-tabcalc-refresh:hover{
+		background-color: #4ebd0c;
+	}
+#wfb-tabcalc-clear{
+    background-color: #da0a13;
+}	
+	#wfb-tabcalc-clear:hover{
+		background-color: #bf2828;
+	}
+#wfb-tabcalc-prev-matchday,
+#wfb-tabcalc-next-matchday{
+	background-color: #e4e4e4;
+    border: none;
+    color: #000;
+}
+	#wfb-tabcalc-prev-matchday:hover,
+	#wfb-tabcalc-next-matchday:hover{
+		background-color: #000;
+	    border: 1px solid #fff;
+	    color: #fff;
+	}
+
+.box-main-popup{
+	background: rgba(255, 255, 255, 0.65);
+	height: 100%;
+	position: absolute;
+	width: 100.3%;
+	z-index: 200;
+}
+	.popup{
+        background: #fdfdfd;
+        border: 1px solid #7a2e4d;
+        height: 140px;
+        left: 50%;
+        margin-left: -150px;
+        padding: 10px;
+        position: fixed;
+        text-align: center;
+        top: 205px;
+        width: 280px;
+	}
+		.popup p{
+            color: #398e06;
+            font: 18px/22px 'actobold';
+            margin: 10px auto 30px;
+            text-align: center;
+		}
+
+	.popup #wfb-tabcalc-clear.wfb-tabcalc-standing-buttons{
+		background-color: #398e06;
+		display: inline-block;
+		float: inherit;
+		margin: 0 15px;    	
+		vertical-align: top;
+		width: 106px;
+	}
+		.popup #wfb-tabcalc-clear.wfb-tabcalc-standing-buttons:hover{
+			background-color: #ef1d1d;
+		}
+	.cancelar{		
+	    background-color: #da0a13;
+	    color: #fff;
+	    cursor: pointer;
+	    display: inline-block;
+	    float: inherit;
+	    font-weight: bold;
+	    height: 24px;
+	    line-height: 20px;
+	    margin: 0 15px; 
+	    padding-top: 4px;
+	    text-align: center;
+	    vertical-align: top;
+	    width: 106px;
+
+	    -webkit-touch-callout: none;
+	    -webkit-user-select: none;
+	    -khtml-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;	    
+	}
+		.cancelar:hover{
+			background-color: #bf2828;
+		}
+	.layer{
+		background: transparent;
+	    height: 28px;
+	    position: absolute;
+	    top: 0;
+	    width: 106px;
+	}
+
+
