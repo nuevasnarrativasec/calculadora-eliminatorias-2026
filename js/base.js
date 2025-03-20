@@ -34,7 +34,7 @@ jQuery(document).ready(function()
 {
 	var points_per_win		= 3;
 	var points_per_draw 	= 1;
-	var cdn_base 			= "https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/calculadora-eliminatorias-mundial-2026-especdis/equipos/";
+	var cdn_base 			= "https://nuevasnarrativasec.github.io/calculadora-eliminatorias-2026/equipos/";
 	var teams 				= new Array();
 	var matchdays_by_group 	= new Array();
 	var current_round_id	= 0;
@@ -53,7 +53,7 @@ jQuery(document).ready(function()
 	$('#wfb-tabcalc-content').hide();
 	$('.wfb-tabcalc-wrapper').append('<div class="wfb-loading_img"></div>');
 
-	$.getJSON('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/calculadora-eliminatorias-mundial-2026-especdis/data/data-nuevo.json?v47', function(data) {
+	$.getJSON('https://nuevasnarrativasec.github.io/calculadora-eliminatorias-2026/data/data-nuevo.json?v50', function(data) {
 	//matches chronologisch sortieren
 	//console.log("DATA: ", data);
 		
