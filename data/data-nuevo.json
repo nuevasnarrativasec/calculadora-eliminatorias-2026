@@ -2921,7 +2921,7 @@
     "group_matchday": "0",
     "match_date": "02.09.2021",
     "match_time": "13:30",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1924",
         "name": "Uruguay",
@@ -3113,7 +3113,7 @@
     "group_matchday": "0",
     "match_date": "02.09.2021",
     "match_time": "16:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "2130",
         "name": "Ecuador",
@@ -3128,12 +3128,12 @@
     },
     "match_result": [
         {
-            "match_result": "1",
+            "match_result": "2",
             "match_result_at": "0",
             "place": "home"
         },
         {
-            "match_result": "0",
+            "match_result": "1",
             "match_result_at": "0",
             "place": "away"
         }
