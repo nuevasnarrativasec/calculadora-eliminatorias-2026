@@ -3162,7 +3162,7 @@
     "group_matchday": "0",
     "match_date": "07.09.2021",
     "match_time": "13:30",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1005",
         "name": "Colombia",
@@ -3177,12 +3177,12 @@
     },
     "match_result": [
         {
-            "match_result": "0",
+            "match_result": "2",
             "match_result_at": "0",
             "place": "home"
         },
         {
-            "match_result": "0",
+            "match_result": "2",
             "match_result_at": "0",
             "place": "away"
         }
@@ -3210,7 +3210,7 @@
     "group_matchday": "0",
     "match_date": "07.09.2021",
     "match_time": "14:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1291",
         "name": "Venezuela",
@@ -3230,7 +3230,7 @@
             "place": "home"
         },
         {
-            "match_result": "2",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "away"
         }
@@ -3258,7 +3258,7 @@
     "group_matchday": "0",
     "match_date": "07.09.2021",
     "match_time": "14:30",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1573",
         "name": "Bolivia",
@@ -3273,7 +3273,7 @@
     },
     "match_result": [
         {
-            "match_result": "3",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "home"
         },
@@ -3306,7 +3306,7 @@
     "group_matchday": "0",
     "match_date": "07.09.2021",
     "match_time": "15:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1753",
         "name": "Argentina",
@@ -3321,12 +3321,12 @@
     },
     "match_result": [
         {
-            "match_result": "0",
+            "match_result": "4",
             "match_result_at": "0",
             "place": "home"
         },
         {
-            "match_result": "0",
+            "match_result": "1",
             "match_result_at": "0",
             "place": "away"
         }
@@ -3354,7 +3354,7 @@
     "group_matchday": "0",
     "match_date": "07.09.2021",
     "match_time": "16:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1267",
         "name": "Chile",
@@ -3374,7 +3374,7 @@
             "place": "home"
         },
         {
-            "match_result": "2",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "away"
         }
@@ -3403,7 +3403,7 @@
     "group_matchday": "0",
     "match_date": "07.10.2021",
     "match_time": "13:30",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1005",
         "name": "Colombia",
@@ -3423,7 +3423,7 @@
             "place": "home"
         },
         {
-            "match_result": "1",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "away"
         }
@@ -3451,7 +3451,7 @@
     "group_matchday": "0",
     "match_date": "07.10.2021",
     "match_time": "14:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1291",
         "name": "Venezuela",
@@ -3466,12 +3466,12 @@
     },
     "match_result": [
         {
-            "match_result": "4",
+            "match_result": "2",
             "match_result_at": "0",
             "place": "home"
         },
         {
-            "match_result": "1",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "away"
         }
@@ -3499,7 +3499,7 @@
     "group_matchday": "0",
     "match_date": "07.10.2021",
     "match_time": "14:30",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1829",
         "name": "Paraguay",
@@ -3514,12 +3514,12 @@
     },
     "match_result": [
         {
-            "match_result": "0",
+            "match_result": "2",
             "match_result_at": "0",
             "place": "home"
         },
         {
-            "match_result": "1",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "away"
         }
@@ -3547,7 +3547,7 @@
     "group_matchday": "0",
     "match_date": "07.10.2021",
     "match_time": "15:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1267",
         "name": "Chile",
@@ -3562,12 +3562,12 @@
     },
     "match_result": [
         {
-            "match_result": "1",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "home"
         },
         {
-            "match_result": "2",
+            "match_result": "1",
             "match_result_at": "0",
             "place": "away"
         }
@@ -3595,7 +3595,7 @@
     "group_matchday": "0",
     "match_date": "07.10.2021",
     "match_time": "16:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "2130",
         "name": "Ecuador",
@@ -3610,12 +3610,12 @@
     },
     "match_result": [
         {
-            "match_result": "1",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "home"
         },
         {
-            "match_result": "1",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "away"
         }
