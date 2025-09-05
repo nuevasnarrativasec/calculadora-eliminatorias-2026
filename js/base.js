@@ -53,7 +53,7 @@ jQuery(document).ready(function()
 	$('#wfb-tabcalc-content').hide();
 	$('.wfb-tabcalc-wrapper').append('<div class="wfb-loading_img"></div>');
 
-	$.getJSON('https://nuevasnarrativasec.github.io/calculadora-eliminatorias-2026/data/data-nuevo.json?v55', function(data) {
+	$.getJSON('https://nuevasnarrativasec.github.io/calculadora-eliminatorias-2026/data/data-nuevo.json?v56', function(data) {
 	//matches chronologisch sortieren
 	//console.log("DATA: ", data);
 		

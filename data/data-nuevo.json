@@ -3885,7 +3885,7 @@
     "group_matchday": "0",
     "match_date": "11.11.2021",
     "match_time": "13:30",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1924",
         "name": "Uruguay",
@@ -3900,7 +3900,7 @@
     },
     "match_result": [
         {
-            "match_result": "1",
+            "match_result": "3",
             "match_result_at": "0",
             "place": "home"
         },
@@ -3933,7 +3933,7 @@
     "group_matchday": "0",
     "match_date": "11.11.2021",
     "match_time": "14:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1005",
         "name": "Colombia",
@@ -3981,7 +3981,7 @@
     "group_matchday": "0",
     "match_date": "11.11.2021",
     "match_time": "14:30",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1844",
         "name": "Brasil",
@@ -3996,7 +3996,7 @@
     },
     "match_result": [
         {
-            "match_result": "4",
+            "match_result": "3",
             "match_result_at": "0",
             "place": "home"
         },
@@ -4029,7 +4029,7 @@
     "group_matchday": "0",
     "match_date": "11.11.2021",
     "match_time": "15:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1829",
         "name": "Paraguay",
@@ -4044,7 +4044,7 @@
     },
     "match_result": [
         {
-            "match_result": "3",
+            "match_result": "0",
             "match_result_at": "0",
             "place": "home"
         },
@@ -4077,7 +4077,7 @@
     "group_matchday": "0",
     "match_date": "11.11.2021",
     "match_time": "16:00",
-    "finished": "no",
+    "finished": "yes",
     "home": {
         "id": "1753",
         "name": "Argentina",
